@@ -7,6 +7,7 @@ public class MyFrame extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		pack();
 		setLocation(600,400);
+		setSize(600,300);
 		setVisible(true);
 	}
 
