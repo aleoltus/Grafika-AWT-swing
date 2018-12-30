@@ -6,6 +6,7 @@ public class MyFrame extends JFrame {
 		super("Hello Word");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		pack();
+		setLocation(600,400);
 		setVisible(true);
 	}
 
