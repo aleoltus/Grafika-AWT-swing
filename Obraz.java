@@ -11,7 +11,7 @@ import java.io.IOException;
 public class Obraz extends JPanel {
 	private BufferedImage image;
 	
-	public ObrazPanel() {
+	public Obraz() {
 		super();
 		
 		File imageFile = new File("pies.jpg");
