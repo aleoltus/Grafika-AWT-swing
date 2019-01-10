@@ -1,3 +1,5 @@
 # Grafika-AWT-swing
-mysz klawiatura itp
+mysz 
+klawiatura
 przyciski
+...
