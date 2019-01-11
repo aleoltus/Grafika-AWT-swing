@@ -6,7 +6,7 @@ public class Test{
 		
 		@Override
 		public void run() {
-			new ObrazFrame();
+			new KeyTest();
 		}
 	});
 }
