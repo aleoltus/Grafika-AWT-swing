@@ -1,3 +1,4 @@
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -42,6 +43,7 @@ public class KeyTest extends JFrame implements KeyListener  {
 		}
 		if(userInput.equals(secret))
 			setTitle("Sekretne haslo");
+			//setBackground(Color.BLUE); nie ³adzia
 	}
 
 }
