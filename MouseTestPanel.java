@@ -48,7 +48,7 @@ public class MouseTestPanel extends JPanel implements MouseListener,MouseMotionL
 		Graphics2D g2d = (Graphics2D) g;
 		g2d.setColor(Color.BLACK);
 		g2d.fillRect(0, 0, this.getWidth(), this.getHeight());
-		g2d.setColor(Color.WHITE);
+		g2d.setColor(Color.PINK);
 		drawRectangles(g2d);
 		
 	}
