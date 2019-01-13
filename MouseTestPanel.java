@@ -54,8 +54,8 @@ public class MouseTestPanel extends JPanel implements MouseListener,
 			// usuwamy kwadracik
 			points.remove(toRemove);
 		} else if (e.getButton() != MouseEvent.BUTTON3) {
-			int index = 0;
-			int size = points.size();
+			int index = 0; // mozemy zrobic kilka kwadratow i zalezy na ktory nacisniemy dlatego potrzebny jest index aby liczyl kwadraty
+			int size = points.size(); // zwraca ilosc kwadracikow
 			Point p;
 			while (movingPoint == null && index < size) {
 				p = points.get(index);
