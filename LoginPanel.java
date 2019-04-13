@@ -76,7 +76,7 @@ public class LoginPanel extends JPanel {
 		parentPanel.add(inputPanel, BorderLayout.CENTER);
 		parentPanel.add(loginButton, BorderLayout.SOUTH);
 
-		// dodajemy do g³ównego panelu
+		// dodajemy do g³ównego paneluuu
 		this.add(parentPanel);
 	}
 }
